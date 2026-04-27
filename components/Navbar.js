@@ -11,20 +11,20 @@ const Navbar = () => {
         <Link href="/about">
           <li>About</li>
         </Link>
-        <Link href="/generate">
+        <Link href="/shorten">
           <li>Shorten</li>
         </Link>
         <Link href="/contact">
           <li>Contact</li>
         </Link>
         <li className="flex gap-3">
-          <Link href="/generate">
-            <button className="text-white bg-gradient-to-br from-purple-400 to-purple-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-base text-sm px-4 py-2 text-center leading-5 rounded-2xl">
+          <Link href="/shorten">
+            <button className="text-white bg-linear-to-br from-purple-400 to-purple-600 hover:bg-linear-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-base text-sm px-4 py-2 text-center leading-5 rounded-2xl hover:font-bold">
               Try Now
             </button>
           </Link>
           <Link href="/github">
-            <button className="text-white bg-gradient-to-br from-purple-400 to-purple-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-base text-sm px-4 py-2 text-center leading-5 rounded-2xl">
+            <button className="text-white bg-linear-to-br from-purple-400 to-purple-600 hover:bg-linear-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-base text-sm px-4 py-2 text-center leading-5 rounded-2xl hover:font-bold">
               GitHub
             </button>
           </Link>
